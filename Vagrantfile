@@ -18,7 +18,7 @@ Vagrant.configure("2") do |config|
 # Provision k8s Master Node
     
     config.vm.define "master" do |k8s|
-      k8s.vm.hostname = "master.lab.local"
+      k8s.vm.hostname = "cp.lab.local"
       k8s.vm.provision "shell", path: "master.sh"
       k8s.vm.network "private_network", ip: "192.168.2.200"
       k8s.vm.provider "virtualbox" do |vb|
