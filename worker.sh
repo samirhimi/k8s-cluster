@@ -12,7 +12,7 @@ echo "student  ALL=(ALL:ALL) NOPASSWD: ALL"  >> /etc/sudoers.d/student
 
 # Add host mapping
 cat <<EOF > /etc/hosts
-192.168.2.200 cp.lab.local
-192.168.2.201 worker1.lab.local
-192.168.2.202 worker2.lab.local
+192.168.2.200 cp.lab.local  cp 
+192.168.2.201 worker1.lab.local  worker1
+192.168.2.202 worker2.lab.local  worker2
 EOF
