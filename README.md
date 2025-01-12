@@ -40,8 +40,8 @@ Before starting, ensure you have the following installed on your system:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/samirhimi/k8s-cluster.git
+   cd k8s-cluster
    ```
 
 2. **Start the Vagrant Machines**
