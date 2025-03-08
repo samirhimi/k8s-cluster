@@ -5,7 +5,7 @@
 # configures the configuration version (we support older styles for
 # backwards compatibility).
 
-NUM_WORKER_NODE = 2
+NUM_WORKER_NODE = 1
 IP_NW = "172.18.5."
 MANAGED_IP_START = 10
 
