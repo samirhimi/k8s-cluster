@@ -36,8 +36,8 @@ Vagrant.configure("2") do |config|
             node.vm.network :private_network, ip: IP_NW + "#{MANAGED_IP_START + i}"
             node.vm.provision "shell", path: "worker.sh"
             node.vm.provider "virtualbox" do |vb|
-              vb.cpus = "2"
-              vb.memory = "4096"
+              vb.cpus = "1"
+              vb.memory = "2048"
               vb.name = "worker#{i}"
             end                
          end
